@@ -1,0 +1,17 @@
+✔ Mã trùng bị từ chối (0.99561ms)
+✔ Giá âm và tồn thập phân bị từ chối (0.192678ms)
+✔ Điện thoại sai và trùng bị từ chối (0.629111ms)
+✔ Thanh toán trừ kho và tính tổng sau giảm giá (0.660838ms)
+✔ Vượt kho không làm thay đổi dữ liệu gốc (0.177055ms)
+✔ Từ chối giỏ rỗng, khách sai, số lượng âm, giảm giá vượt tổng (0.226739ms)
+✔ Không cho phép lặp mã trong giỏ (0.158767ms)
+✔ Hủy hoàn kho một lần và loại khỏi doanh thu (0.250064ms)
+✔ Đơn lưu ảnh chụp giá và tên khách (0.22755ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 80.29915

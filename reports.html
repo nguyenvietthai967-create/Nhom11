@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="PhoneHub - giao diện quản lý cửa hàng điện thoại">
+
+    <title>Báo cáo | PhoneHub</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="js/core.js"></script>
+    <script defer src="js/app.js"></script>
+</head>
+
+<body data-page="reports">
+    <aside>
+        <a class="brand" href="index.html">
+            phone<span>hub.</span>
+        </a>
+
+        <div class="aside-label">QUẢN LÝ CỬA HÀNG</div>
+
+        <nav aria-label="Điều hướng chính">
+            <a href="index.html">01 &nbsp; Tổng quan</a>
+            <a href="products.html">02 &nbsp; Sản phẩm</a>
+            <a href="sales.html">03 &nbsp; Bán hàng</a>
+            <a href="customers.html">04 &nbsp; Khách hàng</a>
+
+            <a href="reports.html" class="active" aria-current="page">
+                05 &nbsp; Báo cáo
+            </a>
+        </nav>
+
+        <div class="aside-foot">
+            BÀI TẬP LỚN THIẾT KẾ WEB<br>
+            Phiên bản trình diễn 1.0
+        </div>
+    </aside>
+
+    <main>
+        <header>
+            <span>Không gian quản lý / <b>Báo cáo</b></span>
+            <span class="pill">Dữ liệu minh họa</span>
+        </header>
+
+        <div class="heading">
+            <div>
+                <div class="eyebrow">PHONEHUB / 05</div>
+
+                <h1>Báo cáo</h1>
+
+                <p class="muted" id="subtitle"></p>
+            </div>
+
+            <div id="action"></div>
+        </div>
+
+        <section id="content" aria-label="Báo cáo"></section>
+
+        <p class="section-note">
+            Dữ liệu lưu trên trình duyệt này.
+            Giá và tên khách hàng chỉ dùng cho bài tập.
+        </p>
+    </main>
+
+    <dialog id="modal">
+        <div class="dialog-title">
+            <h2 id="modal-title"></h2>
+
+            <button
+                class="secondary"
+                id="close-modal"
+                aria-label="Đóng hộp thoại"
+            >
+                ✕
+            </button>
+        </div>
+
+        <div id="modal-body"></div>
+    </dialog>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
